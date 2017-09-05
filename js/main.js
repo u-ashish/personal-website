@@ -23,6 +23,7 @@ $(function () {
     // console.log("sup");
     $('#photography').fadeIn();
   });
+
   $('.fa-camera-retro').mouseleave(function() {
     // console.log("hey");
     $('#photography').fadeOut();
