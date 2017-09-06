@@ -2,7 +2,10 @@ html,body{
   padding:0 0 0 0;
   height:100%;
 }
+.backdrop {
+  height: 22px;
 
+}
 *{
   margin: 0;
 }
@@ -87,16 +90,20 @@ ul li:first-child{
   margin: 0;
 }
 
+#navigation {
+  margin-top: 13px;
+  margin-left: 4px;
+}
+
 .links {
   padding:6px 6px 0 0;
 }
 
 li {
 	display: list-item;
-
 }
 
-ul, menu, dir {
+menu, dir {
 	display: block;
 
 }
@@ -129,7 +136,7 @@ h3 {
   margin-top: 40px;
 }
 
-.label {
+.d {
   display: none;
 }
 
@@ -233,15 +240,10 @@ hr.bottom {
     padding-right: 5px;
 }
 
-#navigation {
-  margin-top: 13px;
-  margin-left: 4px;
-}
-
 footer{
   height:40px;
   width:650px;
-  font-size:50px;
+  font-size:30px;
   margin:20px auto 0 auto;
   display: block;
   text-align:center;
